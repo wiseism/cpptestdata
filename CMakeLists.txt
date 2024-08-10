@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.12)
 project(cpptestdata)
 
 set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_VERBOSE_MAKEFILE ON)
 include_directories(/usr/local/include)
 link_directories(/usr/local/lib)
 find_package(date CONFIG REQUIRED)
