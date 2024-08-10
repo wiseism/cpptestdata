@@ -29,7 +29,7 @@ jobs:
           cd build
           cmake -DENABLE_DATE_TESTING=ON -DBUILD_TZ_LIB=OFF -DBUILD_SHARED_LIBS=ON -DUSE_TZ_DB_IN_DOT=ON ../
           cmake --build .
-          cmake --install .
+          sudo cmake --install .
           cd ../../
 
       - name: Configure CMake
