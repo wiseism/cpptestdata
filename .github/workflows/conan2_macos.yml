@@ -1,4 +1,4 @@
-name: conan2 macos latest
+name: conan2 macos latest Debug
 
 on:
   push:
