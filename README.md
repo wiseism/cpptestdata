@@ -50,3 +50,39 @@ UTC time: 2026-03-22 16:21:00.030886
 - **构建系统**: CMake
 - **包管理器**: Conan
 - **C++ 标准**: C++17
+
+## Date 库 API 参考
+
+本项目使用的 [date/3.0.1](https://github.com/HowardHinnant/date) 库主要 API：
+
+### 核心类型
+
+| 类型 | 说明 |
+|------|------|
+| `system_clock::time_point` | 系统时间点 |
+| `year_month_day` | 年月日日期类型 |
+| `hh_mm_ss<Duration>` | 时分秒时间类型 |
+| `weekday` | 星期几类型 |
+| `days` / `hours` / `minutes` / `seconds` | 时间间隔类型 |
+| `zoned_time` | 带时区的时间 |
+
+### 常用函数
+
+| 函数 | 说明 |
+|------|------|
+| `system_clock::now()` | 获取当前时间点 |
+| `floor<days>(tp)` | 将时间点向下取整到天 |
+| `sys_days(ymd)` | 将 year_month_day 转换为时间戳 |
+| `year_month_day{tp}` | 从时间点构造日期 |
+| `weekday{tp}` | 获取星期几 |
+| `date::parse(format, ymd)` | 解析日期字符串 |
+| `date::format(format, tp)` | 格式化时间输出 |
+| `date::locate_zone(name)` | 加载时区信息 |
+| `make_zoned(zone, tp)` | 创建带时区的时间 |
+
+### 头文件
+
+```cpp
+#include "date/date.h"    // 基础日期时间功能
+#include "date/tz.h"      // 时区功能（需要 tz 数据库）
+```
