@@ -43,3 +43,5 @@ CMake Error at CMakeLists.txt:5 (find_package):
 | run id | 结果 |
 | --- | --- |
 | 本次推送触发 | 待填 |
+
+| 42443847578 (conan2(ubuntu)) | ✅ success |

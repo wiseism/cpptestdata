@@ -19,3 +19,5 @@
 |---|---|
 | 42443847623 (修复前) | failure — 未知 conf |
 | 待 re-run | 待填 |
+
+| 42443847578 (conan2(ubuntu), conan 升级修复) | ✅ success |
