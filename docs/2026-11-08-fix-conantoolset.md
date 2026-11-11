@@ -49,3 +49,5 @@ CMake Error at CMakeLists.txt:5 (find_package):
 | 42443847569 (conan2(ubuntu)) | ✅ success |
 
 | 42443847548 (conan2 macos) | ✅ success |
+
+| 42443847578 (CMake single platform conan 流程) | ✅ success |
