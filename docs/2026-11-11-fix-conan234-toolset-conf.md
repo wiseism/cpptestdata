@@ -21,3 +21,6 @@
 | 待 re-run | 待填 |
 
 | 42443847578 (conan2(ubuntu), conan 升级修复) | ✅ success |
+
+## 补记: conan 2.34 preset 命名
+- CMakeToolchain 仅生成 conan-default（不再有 conan-debug），四个 workflow 统一改用 conan-default preset。
