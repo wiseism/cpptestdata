@@ -45,3 +45,5 @@ CMake Error at CMakeLists.txt:5 (find_package):
 | 本次推送触发 | 待填 |
 
 | 42443847578 (conan2(ubuntu)) | ✅ success |
+
+| 42443847569 (conan2(ubuntu)) | ✅ success |
