@@ -24,3 +24,6 @@
 
 ## 补记: conan 2.34 preset 命名
 - CMakeToolchain 仅生成 conan-default（不再有 conan-debug），四个 workflow 统一改用 conan-default preset。
+
+## 补记: conan 2.34 布局变化
+- cmake_layout 构建目录变为 build（非 build/Debug），四个 workflow --build 路径修正。
