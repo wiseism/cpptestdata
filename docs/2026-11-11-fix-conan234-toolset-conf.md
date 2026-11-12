@@ -30,3 +30,6 @@
 
 ## 补记: preset 命名不稳定
 - 不同 conan 版本只生成 conan-default 或 conan-debug 之一，改用 conan_toolchain.cmake 直接 configure（版本无关）。
+
+## 补记: 改用 conan build
+- conanfile 增加 build()（CMake helper），workflow 统一 conan install + conan build，规避 preset/toolchain 路径差异。
