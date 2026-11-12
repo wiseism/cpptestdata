@@ -18,7 +18,10 @@
 | Run | 结果 |
 |---|---|
 | 42443847623 (修复前) | failure — 未知 conf |
-| 待 re-run | 待填 |
+| 43127126326 (conan2(ubuntu), 8e24323) | ✅ success |
+| 43127126341 (conan2 macos latest) | ✅ success |
+| 43127126501 (conan2 win 2022) | ✅ success |
+| 43127126536 (CMake single platform) | ✅ success |
 
 | 42443847578 (conan2(ubuntu), conan 升级修复) | ✅ success |
 
