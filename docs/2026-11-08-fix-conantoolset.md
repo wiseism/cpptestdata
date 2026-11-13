@@ -42,7 +42,7 @@ CMake Error at CMakeLists.txt:5 (find_package):
 ## 验证
 | run id | 结果 |
 | --- | --- |
-| 本次推送触发 | 待填 |
+| 43223185762 (win) / 43223185669 (macos) | ✅ success |
 
 | 42443847578 (conan2(ubuntu)) | ✅ success |
 
